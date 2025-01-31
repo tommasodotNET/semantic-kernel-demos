@@ -1,0 +1,26 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- .NET packages -->
+    <PackageVersion Include="Microsoft.Extensions.Configuration" Version="9.0.1" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.Binder" Version="9.0.1" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.FileExtensions" Version="9.0.1" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.Json" Version="9.0.1" />
+    <PackageVersion Include="Microsoft.Extensions.Http.Resilience" Version="8.7.0" />
+    <PackageVersion Include="Microsoft.Extensions.Options" Version="9.0.1" />
+    <PackageVersion Include="Microsoft.Extensions.ServiceDiscovery" Version="8.0.2" />
+    <PackageVersion Include="Microsoft.SourceLink.GitHub" Version="8.0.0" />
+    <PackageVersion Include="System.Text.Json" Version="8.0.5" />
+    <PackageVersion Include="System.Memory.Data" Version="8.0.1" />
+    <!-- Semantic Kernel packages -->
+    <PackageVersion Include="Microsoft.SemanticKernel" Version="$(SemanticKernelVersion)" />
+    <PackageVersion Include="Microsoft.SemanticKernel.PromptTemplates.Handlebars" Version="$(SemanticKernelVersion)" />
+    <PackageVersion Include="Microsoft.SemanticKernel.Connectors.AzureOpenAI" Version="$(SemanticKernelVersion)" />
+    <PackageVersion Include="Microsoft.SemanticKernel.Yaml" Version="$(SemanticKernelVersion)" />
+    <PackageVersion Include="Microsoft.SemanticKernel.Agents.Core" Version="$(SemanticKernelVersionAlpha)" />
+    <PackageVersion Include="Microsoft.SemanticKernel.Agents.OpenAI" Version="$(SemanticKernelVersionAlpha)" />
+    <PackageVersion Include="Microsoft.SemanticKernel.Plugins.Core" Version="$(SemanticKernelVersionAlpha)" />
+  </ItemGroup>
+</Project>

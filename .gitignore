@@ -1,0 +1,5 @@
+# Ignore appsettings Development.json files
+**/appsettings Development.json
+# Ignore bin and obj folders
+**/bin/
+**/obj/
